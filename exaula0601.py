@@ -1,0 +1,10 @@
+n = str(input('Digite algo '))
+print('Qual o tipo de dados?', type(n))
+#print('É um inteiro?', n.is_integer())
+print('Tem somente espaços?', n.isspace())
+print('Tem somente letras?', n.isalpha())
+print('É um número?', n.isnumeric())
+print('Está somente em minúsculo?', n.islower())
+print('Está somente em maiúsculo?', n.isupper())
+print('É alfanumérico?', n.isalnum())
+print('Está capitalizado?', n.istitle())#primeira letra em maiúsculo
